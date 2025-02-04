@@ -2950,8 +2950,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 0.4338624338624339,
-                    "y": 0.8635097493036212,
+                    "x": 0.43716931216931215,
+                    "y": 0.8495821727019498,
                     "uniqueID": 1738701798259,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3213,13 +3213,13 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.44378306878306883,
-                            "y": 0.7242339832869081,
+                            "x": 0.4451058201058201,
+                            "y": 0.713091922005571,
                             "uniqueID": 1738703495564,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 70
+                                    "ioValue": 68
                                 }
                             ],
                             "description": "Creates a new circle."
