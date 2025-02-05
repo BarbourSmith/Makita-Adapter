@@ -3689,9 +3689,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Mounting Bolts",
-                    "x": 0.26521164021164023,
-                    "y": 0.7938718662952646,
+                    "name": "Lower Mounting Bolts",
+                    "x": 0.26785714285714285,
+                    "y": 0.7688022284122563,
                     "uniqueID": 1738701798259,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
