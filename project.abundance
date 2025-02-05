@@ -4318,7 +4318,7 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.9589947089947091,
+                    "x": 0.9556878306878307,
                     "y": 0.7910863509749304,
                     "uniqueID": 1738718259195,
                     "ioValues": [
@@ -4395,21 +4395,6 @@
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.7195767195767196,
-                    "y": 0.40111420612813375,
-                    "uniqueID": 1738719624426,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1738701029437
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 3
                 }
             ],
             "allConnectors": [
@@ -4426,13 +4411,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1738701029437,
                     "ap2ID": 1738706228163
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1738701029437,
-                    "ap2ID": 1738719624426
                 },
                 {
                     "ap1Name": "Geometry",
