@@ -1698,8 +1698,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamp side",
-            "x": 0.21362433862433863,
-            "y": 0.6211699164345404,
+            "x": 0.20502645502645506,
+            "y": 0.6072423398328691,
             "uniqueID": 1738700940582,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -7500,8 +7500,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.8895502645502646,
-                    "y": 0.22005571030640667,
+                    "x": 0.8941798941798942,
+                    "y": 0.22841225626740946,
                     "uniqueID": 1738788456980,
                     "ioValues": [
                         {
