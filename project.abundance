@@ -2328,7 +2328,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1738701063370
+                            "ioValue": 1738787407140
                         },
                         {
                             "name": "xDist",
@@ -6617,13 +6617,6 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1738701063370,
-                    "ap2ID": 1738701321066
-                },
-                {
-                    "ap1Name": "Geometry",
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1738701063370,
@@ -6747,6 +6740,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1738785579876,
                     "ap2ID": 1738787407140
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1738787407140,
+                    "ap2ID": 1738701321066
                 }
             ],
             "fileTypeVersion": 1,
