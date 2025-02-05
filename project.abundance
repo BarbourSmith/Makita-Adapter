@@ -1952,12 +1952,12 @@
                             "ioValue": 1738701786142
                         },
                         {
-                            "name": "Shape 7",
-                            "ioValue": 1738706048547
-                        },
-                        {
                             "name": "Shape 8",
                             "ioValue": 1738718915745
+                        },
+                        {
+                            "name": "Shape 9",
+                            "ioValue": 1738784721483
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -3063,8 +3063,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 0.5138888888888888,
-                    "y": 0.7381615598885795,
+                    "x": 0.5125661375661376,
+                    "y": 0.7799442896935932,
                     "uniqueID": 1738701770945,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3201,8 +3201,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.48677248677248675,
-                            "y": 0.5403899721448467,
+                            "x": 0.46759259259259256,
+                            "y": 0.5515320334261838,
                             "uniqueID": 1738705938539,
                             "ioValues": [
                                 {
@@ -3263,7 +3263,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 1
+                                    "ioValue": -1
                                 },
                                 {
                                     "name": "yDist",
@@ -3321,12 +3321,12 @@
                                     "ioValue": 1738705903433
                                 },
                                 {
-                                    "name": "Shape 2",
-                                    "ioValue": 1738705938539
-                                },
-                                {
                                     "name": "Shape 3",
                                     "ioValue": 1738705905119
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": 1738784870996
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -3366,6 +3366,22 @@
                                 "KeepOut"
                             ],
                             "cutTag": false
+                        },
+                        {
+                            "atomType": "ExtractTag",
+                            "name": "Extract Tag",
+                            "x": 0.5482804232804233,
+                            "y": 0.5125348189415042,
+                            "uniqueID": 1738784870996,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1738705938539
+                                }
+                            ],
+                            "description": "Extracts geometry containing the specified tag.",
+                            "tag": "Plastic",
+                            "tagIndex": 0
                         }
                     ],
                     "allConnectors": [
@@ -3427,10 +3443,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Shape 2",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1738705938539,
-                            "ap2ID": 1738784620504
+                            "ap2ID": 1738784870996
                         },
                         {
                             "ap1Name": "geometry",
@@ -3480,6 +3496,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1738784703535,
                             "ap2ID": 1738784587375
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": 1738784870996,
+                            "ap2ID": 1738784620504
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -5431,13 +5454,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6832010582010583,
-                    "y": 0.532033426183844,
+                    "x": 0.6402116402116402,
+                    "y": 0.6601671309192201,
                     "uniqueID": 1738706048547,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1738784721483
+                            "ioValue": 1738701770945
                         },
                         {
                             "name": "xDist",
@@ -5457,7 +5480,7 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.7757936507936508,
+                    "x": 0.7671957671957672,
                     "y": 0.6518105849582172,
                     "uniqueID": 1738706218769,
                     "ioValues": [
@@ -5582,13 +5605,13 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.6064814814814814,
-                    "y": 0.6295264623955432,
+                    "x": 0.6309523809523809,
+                    "y": 0.4512534818941504,
                     "uniqueID": 1738784721483,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1738701770945
+                            "ioValue": 1738706048547
                         }
                     ],
                     "description": "Extracts geometry containing the specified tag.",
@@ -5644,7 +5667,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1738701770945,
-                    "ap2ID": 1738784721483
+                    "ap2ID": 1738706048547
                 },
                 {
                     "ap1Name": "Geometry",
@@ -5669,17 +5692,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 7",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1738706048547,
-                    "ap2ID": 1738701029437
+                    "ap2ID": 1738706218769
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1738706048547,
-                    "ap2ID": 1738706218769
+                    "ap2ID": 1738784721483
                 },
                 {
                     "ap1Name": "geometry",
@@ -5725,10 +5748,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "Shape 9",
+                    "ap2Primary": false,
                     "ap1ID": 1738784721483,
-                    "ap2ID": 1738706048547
+                    "ap2ID": 1738701029437
                 }
             ],
             "fileTypeVersion": 1,
