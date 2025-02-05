@@ -2704,8 +2704,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Lower Reinforcement",
-                    "x": 0.12962962962962962,
-                    "y": 0.7437325905292479,
+                    "x": 0.1349206349206349,
+                    "y": 0.7409470752089137,
                     "uniqueID": 1738701752733,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2760,8 +2760,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.2222222222222222,
-                            "y": 0.6267409470752089,
+                            "x": 0.22354497354497355,
+                            "y": 0.6100278551532033,
                             "uniqueID": 1738702026210,
                             "ioValues": [
                                 {
@@ -2786,8 +2786,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.4431216931216931,
-                            "y": 0.5097493036211699,
+                            "x": 0.421957671957672,
+                            "y": 0.3064066852367688,
                             "uniqueID": 1738702051899,
                             "ioValues": [
                                 {
@@ -2836,8 +2836,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.3505291005291006,
-                            "y": 0.7576601671309192,
+                            "x": 0.34457671957671954,
+                            "y": 0.6573816155988859,
                             "uniqueID": 1738703045703,
                             "ioValues": [
                                 {
@@ -2851,6 +2851,44 @@
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.48611111111111116,
+                            "y": 0.7353760445682451,
+                            "uniqueID": 1738782021840,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 62
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Molecule",
+                            "x": 0.5846560846560847,
+                            "y": 0.8050139275766017,
+                            "uniqueID": 1738782043892,
+                            "ioValues": [],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": 1738782043713,
+                                    "ioValues": [],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
                         }
                     ],
                     "allConnectors": [
