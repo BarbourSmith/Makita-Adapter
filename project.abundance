@@ -1698,8 +1698,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamp side",
-            "x": 0.19510582010582012,
-            "y": 0.8579387186629527,
+            "x": 0.19246031746031744,
+            "y": 0.8412256267409471,
             "uniqueID": 1738700940582,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5506,8 +5506,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.7936507936507936,
-                    "y": 0.20612813370473537,
+                    "x": 0.7962962962962963,
+                    "y": 0.20334261838440112,
                     "uniqueID": 1738706228163,
                     "ioValues": [
                         {
@@ -5542,7 +5542,7 @@
                         },
                         {
                             "name": "File Type",
-                            "ioValue": "STL"
+                            "ioValue": "STEP"
                         }
                     ],
                     "description": "Export Atom, let's you choose a type of file to Export.",
@@ -7500,8 +7500,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.8974867724867724,
-                    "y": 0.22005571030640667,
+                    "x": 0.8968253968253969,
+                    "y": 0.21727019498607245,
                     "uniqueID": 1738788456980,
                     "ioValues": [
                         {
@@ -7510,7 +7510,8 @@
                         }
                     ],
                     "description": "Extracts geometry containing the specified tag.",
-                    "tagIndex": 0
+                    "tag": "Clamp Side",
+                    "tagIndex": 2
                 }
             ],
             "allConnectors": [
