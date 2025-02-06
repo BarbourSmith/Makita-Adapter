@@ -8426,6 +8426,22 @@
             "description": "Extracts geometry containing the specified tag.",
             "tag": "Clamp Side",
             "tagIndex": 3
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.4986772486772487,
+            "y": 0.8105849582172702,
+            "uniqueID": 1738800981974,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1738700292551
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tag": "Clamp Side",
+            "tagIndex": 2
         }
     ],
     "allConnectors": [
@@ -8477,6 +8493,13 @@
             "ap2Primary": false,
             "ap1ID": 1738700292551,
             "ap2ID": 1738698954595
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1738700292551,
+            "ap2ID": 1738800981974
         },
         {
             "ap1Name": "geometry",
