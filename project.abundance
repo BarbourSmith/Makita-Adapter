@@ -6968,7 +6968,7 @@
                                         }
                                     ],
                                     "description": "Changes the color of the shape.",
-                                    "selectedColorIndex": 21
+                                    "selectedColorIndex": 22
                                 },
                                 {
                                     "atomType": "Circle",
