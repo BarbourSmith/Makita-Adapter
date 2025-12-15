@@ -2,7 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M3 Lock Nut|2|$0.2|www.example.com|
-|Total: |2|$0.2| |
-
- 3xCOG MSRP: $0.60
+|New Item|2|$0.00||
+|Total: |2|$0.00| |
