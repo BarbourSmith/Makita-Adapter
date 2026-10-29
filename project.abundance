@@ -254,16 +254,16 @@
           "name": "Rectangle-Rounded",
           "ioValues": [
             {
-              "name": "Width",
-              "ioValue": 87
+              "name": "Radius",
+              "ioValue": 20
             },
             {
               "name": "Height",
               "ioValue": 72
             },
             {
-              "name": "Radius",
-              "ioValue": 20
+              "name": "Width",
+              "ioValue": 87
             }
           ],
           "topLevel": false,
@@ -271,7 +271,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.3,
+              "y": 0.2,
               "uniqueID": 1738620581284,
               "name": "Radius",
               "type": "number",
@@ -289,7 +289,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.2,
+              "y": 0.3,
               "uniqueID": 1738620581472,
               "name": "Width",
               "type": "number",
@@ -4832,40 +4832,6 @@
           ]
         },
         {
-          "atomType": "Export",
-          "x": 0.9,
-          "y": 0.4,
-          "uniqueID": 1738718259195,
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STL",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 72
-            },
-            {
-              "name": "STL Tolerance",
-              "ioValue": 0.05
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "Makita Clamp",
-              "currentEquation": "Clamp side"
-            }
-          ],
-          "type": null,
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "Clamp side"
-        },
-        {
           "atomType": "ExtractTag",
           "x": 0.4,
           "y": 0.6,
@@ -6726,11 +6692,6 @@
           "ap2Name": "geometry",
           "ap1ID": 1738788392903,
           "ap2ID": 1738788456980
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": 1738788456980,
-          "ap2ID": 1738718259195
         }
       ],
       "fileTypeVersion": 1
@@ -6819,6 +6780,10 @@
       "name": "Cross-Section",
       "ioValues": [
         {
+          "name": "Angle Y",
+          "ioValue": 0
+        },
+        {
           "name": "Offset",
           "ioValue": 0
         },
@@ -6828,10 +6793,6 @@
         },
         {
           "name": "Angle Z",
-          "ioValue": 0
-        },
-        {
-          "name": "Angle Y",
           "ioValue": 0
         }
       ],
@@ -6868,7 +6829,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.5,
+          "y": 0.2,
           "uniqueID": 1738702937137,
           "name": "Angle Y",
           "type": "number",
@@ -6975,7 +6936,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.2,
+          "y": 0.4,
           "uniqueID": 1738702937643,
           "name": "Geometry",
           "type": "number",
@@ -6984,7 +6945,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.4,
+          "y": 0.5,
           "uniqueID": 1738702937645,
           "name": "Angle Z",
           "type": "number",
@@ -7078,16 +7039,16 @@
           "ioValue": 0
         },
         {
-          "name": "Angle X",
-          "ioValue": 90
+          "name": "Angle Y",
+          "ioValue": 0
         },
         {
           "name": "Angle Z",
           "ioValue": -90
         },
         {
-          "name": "Angle Y",
-          "ioValue": 0
+          "name": "Angle X",
+          "ioValue": 90
         }
       ],
       "topLevel": false,
@@ -7188,7 +7149,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.5,
+          "y": 0.2,
           "uniqueID": 1738704790236,
           "name": "Angle Y",
           "type": "number",
@@ -7197,7 +7158,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.4,
+          "y": 0.3,
           "uniqueID": 1738704790291,
           "name": "Angle Z",
           "type": "number",
@@ -7206,7 +7167,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.3,
+          "y": 0.4,
           "uniqueID": 1738704790389,
           "name": "Angle X",
           "type": "number",
@@ -7215,7 +7176,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.2,
+          "y": 0.5,
           "uniqueID": 1738704790405,
           "name": "Geometry",
           "type": "number",
@@ -7410,14 +7371,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Makita-Adapter",
-          "currentEquation": "Makita-Adapter"
+          "ioValue": "Makita Clamp",
+          "currentEquation": "Makita Clamp"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Makita-Adapter"
+      "partName": "Makita Clamp"
     }
   ],
   "allConnectors": [
