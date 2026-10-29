@@ -2,7 +2,7 @@
 
 # Makita-Adapter
 
-![](/project.svg)
+![](/project.png)
 
 
 
