@@ -1228,7 +1228,7 @@
     {
       "atomType": "Assembly",
       "x": 0.6,
-      "y": 0.3,
+      "y": 0.2,
       "uniqueID": 1738698954595,
       "ioValues": [
         {
@@ -6722,8 +6722,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8,
-      "y": 0.3,
+      "x": 0.9,
+      "y": 0.2,
       "uniqueID": 1738702541740,
       "ioValues": [
         {
