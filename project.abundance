@@ -288,12 +288,12 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": 1738699069856,
           "ap2ID": 1738699098282
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": 1738699072235,
           "ap2ID": 1738699098282
         },
@@ -479,7 +479,7 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": 1738702937643,
           "ap2ID": 1738702937268
         },
@@ -519,7 +519,7 @@
           "ap2ID": 1738702937452
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": 1738702937452,
           "ap2ID": 1738702937268
         },
@@ -701,7 +701,7 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": 1738704790405,
           "ap2ID": 1738704790221
         },
@@ -741,7 +741,7 @@
           "ap2ID": 1738704790959
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": 1738704790959,
           "ap2ID": 1738704790221
         },
@@ -2008,7 +2008,7 @@
           "ap2ID": 1738698932627
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": 1738698932627,
           "ap2ID": 1738698933288
         },
@@ -2108,7 +2108,7 @@
           "ap2ID": 1738698932566
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": 1738698933092,
           "ap2ID": 1738698933288
         }
@@ -3358,17 +3358,17 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738701021906,
               "ap2ID": 1738701021657
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738701021472,
               "ap2ID": 1738701021657
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738701021657,
               "ap2ID": 1738701021228
             },
@@ -3383,7 +3383,7 @@
               "ap2ID": 1738701021467
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738701021467,
               "ap2ID": 1738701021228
             },
@@ -3721,7 +3721,7 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738701091818,
               "ap2ID": 1738701113454
             },
@@ -3736,7 +3736,7 @@
               "ap2ID": 1738701186231
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738701125488,
               "ap2ID": 1738701164751
             },
@@ -3776,12 +3776,12 @@
               "ap2ID": 1738701259424
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738701228275,
               "ap2ID": 1738701113454
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738701259424,
               "ap2ID": 1738701164751
             }
@@ -4114,7 +4114,7 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738701539915,
               "ap2ID": 1738701539639
             },
@@ -4129,7 +4129,7 @@
               "ap2ID": 1738701649460
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738701539647,
               "ap2ID": 1738701539491
             },
@@ -4164,12 +4164,12 @@
               "ap2ID": 1738701539500
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738701539969,
               "ap2ID": 1738701539639
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738701539500,
               "ap2ID": 1738701539491
             },
@@ -4397,7 +4397,7 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738702010300,
               "ap2ID": 1738702051899
             },
@@ -4417,7 +4417,7 @@
               "ap2ID": 1738702065599
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738702065599,
               "ap2ID": 1738782142500
             },
@@ -4427,17 +4427,17 @@
               "ap2ID": 1738703045703
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738703019740,
               "ap2ID": 1738782049101
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738703045703,
               "ap2ID": 1738702051899
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738782021840,
               "ap2ID": 1738782049101
             },
@@ -4457,7 +4457,7 @@
               "ap2ID": 1738782128145
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738782128145,
               "ap2ID": 1738782142500
             },
@@ -5476,7 +5476,7 @@
               ],
               "allConnectors": [
                 {
-                  "ap2Name": "geometry1",
+                  "ap2Name": "retain",
                   "ap1ID": 1738785607402,
                   "ap2ID": 1738785608117
                 },
@@ -5506,12 +5506,12 @@
                   "ap2ID": 1738785608039
                 },
                 {
-                  "ap2Name": "geometry2",
+                  "ap2Name": "remove",
                   "ap1ID": 1738785608039,
                   "ap2ID": 1738785608117
                 },
                 {
-                  "ap2Name": "geometry1",
+                  "ap2Name": "retain",
                   "ap1ID": 1738785676756,
                   "ap2ID": 1738787928500
                 },
@@ -5531,7 +5531,7 @@
                   "ap2ID": 1738787912164
                 },
                 {
-                  "ap2Name": "geometry2",
+                  "ap2Name": "remove",
                   "ap1ID": 1738787912164,
                   "ap2ID": 1738787928500
                 },
@@ -5959,12 +5959,12 @@
               "ap2ID": 1738787140886
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": 1738787140886,
               "ap2ID": 1738787161612
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": 1738787154304,
               "ap2ID": 1738787161612
             },
@@ -8107,7 +8107,7 @@
           "ap2ID": 1738719002732
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": 1738719002732,
           "ap2ID": 1738706228163
         },
@@ -8122,7 +8122,7 @@
           "ap2ID": 1738701321066
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": 1738788104721,
           "ap2ID": 1738706228163
         },
